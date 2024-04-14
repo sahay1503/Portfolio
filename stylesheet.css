@@ -823,3 +823,299 @@ section {
         opacity: 1;
     }
 }
+
+@media screen and (max-width: 480px) {
+    .header {
+        padding: 15px 5%;
+    }
+
+    .logo {
+        font-size: 20px;
+    }
+
+    .navbar a {
+        font-size: 20px;
+        margin-left: 20px;
+    }
+
+    .home-content h3 {
+        font-size: 28px;
+    }
+
+    .home-content h1 {
+        font-size: 40px;
+    }
+
+    .home-content p {
+        font-size: 16px;
+    }
+
+    .home-sci a {
+        font-size: 16px;
+        margin: 20px 10px 20px 0;
+    }
+
+    .btn-box,
+    .read {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+
+    .about-text h2 {
+        font-size: 40px;
+    }
+
+    .about-text h4 {
+        font-size: 24px;
+    }
+
+    .about-text p {
+        font-size: 16px;
+    }
+
+    .grid-container {
+        padding: 10px;
+    }
+
+    .services-list div {
+        padding: 20px;
+        font-size: 12px;
+    }
+
+    .services-list div i {
+        font-size: 40px;
+    }
+
+    .contact-text h2 {
+        font-size: 60px;
+    }
+
+    .contact-text h4 {
+        font-size: 18px;
+    }
+
+    .contact-text p {
+        font-size: 16px;
+    }
+
+    .contact-list i {
+        font-size: 16px;
+    }
+
+    .contact-icons {
+        width: 30px;
+        height: 30px;
+        font-size: 16px;
+        margin: 20px 10px 20px 0;
+    }
+
+    .contact-form form input,
+    .contact-form textarea {
+        font-size: 14px;
+        padding: 12px;
+    }
+
+    .contact-form form .send {
+        padding: 10px 30px;
+        font-size: 16px;
+    }
+}
+
+/* For iPhones */
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 2) {
+
+    /* Add styles specific to iPhones */
+    .header {
+        padding: 15px 5%;
+    }
+
+    .logo {
+        font-size: 20px;
+    }
+
+    .navbar a {
+        font-size: 20px;
+        margin-left: 20px;
+    }
+
+    .home-content h3 {
+        font-size: 28px;
+    }
+
+    .home-content h1 {
+        font-size: 40px;
+    }
+
+    .home-content p {
+        font-size: 16px;
+    }
+
+    .home-sci a {
+        font-size: 16px;
+        margin: 20px 10px 20px 0;
+    }
+
+    .btn-box,
+    .read {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+
+    .about-text h2 {
+        font-size: 40px;
+    }
+
+    .about-text h4 {
+        font-size: 24px;
+    }
+
+    .about-text p {
+        font-size: 16px;
+    }
+
+    .grid-container {
+        padding: 10px;
+    }
+
+    .services-list div {
+        padding: 20px;
+        font-size: 12px;
+    }
+
+    .services-list div i {
+        font-size: 40px;
+    }
+
+    .contact-text h2 {
+        font-size: 60px;
+    }
+
+    .contact-text h4 {
+        font-size: 18px;
+    }
+
+    .contact-text p {
+        font-size: 16px;
+    }
+
+    .contact-list i {
+        font-size: 16px;
+    }
+
+    .contact-icons {
+        width: 30px;
+        height: 30px;
+        font-size: 16px;
+        margin: 20px 10px 20px 0;
+    }
+
+    .contact-form form input,
+    .contact-form textarea {
+        font-size: 14px;
+        padding: 12px;
+    }
+
+    .contact-form form .send {
+        padding: 10px 30px;
+        font-size: 16px;
+    }
+}
+/* For tablets */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+
+    /* Add styles specific to tablets */
+    .header {
+        padding: 15px 5%;
+    }
+
+    .logo {
+        font-size: 25px;
+    }
+
+    .navbar a {
+        font-size: 20px;
+        margin-left: 30px;
+    }
+
+    .home-content h3 {
+        font-size: 32px;
+    }
+
+    .home-content h1 {
+        font-size: 48px;
+    }
+
+    .home-content p {
+        font-size: 18px;
+    }
+
+    .home-sci a {
+        font-size: 18px;
+        margin: 30px 15px 30px 0;
+    }
+
+    .btn-box,
+    .read {
+        padding: 12px 24px;
+        font-size: 16px;
+    }
+
+    .about-text h2 {
+        font-size: 60px;
+    }
+
+    .about-text h4 {
+        font-size: 24px;
+    }
+
+    .about-text p {
+        font-size: 18px;
+    }
+
+    .grid-container {
+        padding: 20px;
+    }
+
+    .services-list div {
+        padding: 30px;
+        font-size: 16px;
+    }
+
+    .services-list div i {
+        font-size: 50px;
+    }
+
+    .contact-text h2 {
+        font-size: 80px;
+    }
+
+    .contact-text h4 {
+        font-size: 24px;
+    }
+
+    .contact-text p {
+        font-size: 20px;
+    }
+
+    .contact-list i {
+        font-size: 20px;
+    }
+
+    .contact-icons {
+        width: 40px;
+        height: 40px;
+        font-size: 20px;
+        margin: 30px 15px 30px 0;
+    }
+
+    .contact-form form input,
+    .contact-form textarea {
+        font-size: 18px;
+        padding: 16px;
+    }
+
+    .contact-form form .send {
+        padding: 14px 40px;
+        font-size: 18px;
+    }
+}
