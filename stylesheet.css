@@ -876,6 +876,11 @@ section {
     .grid-container {
         padding: 10px;
     }
+    .radial-bars {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+    }
 
     .services-list div {
         padding: 20px;
